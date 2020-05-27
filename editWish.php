@@ -10,7 +10,9 @@ and open the template in the editor.
         if (!array_key_exists("user", $_SESSION)) {
             header('Location: index.php');
             exit;
-        //Adding a useless comment.
+        
+            //Adding another useless comment. The code below is for testing and shold be deleted.
+            session_abort();
         }
         ?>
 <html>
