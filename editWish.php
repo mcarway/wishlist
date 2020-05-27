@@ -10,8 +10,8 @@ and open the template in the editor.
         if (!array_key_exists("user", $_SESSION)) {
             header('Location: index.php');
             exit;
-        //Adding a useless comment.
-        }
+ //Here's where I did my test. All clean now.
+            }
         ?>
 <html>
     <head>
